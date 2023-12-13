@@ -1,0 +1,138 @@
+:root{
+    --color-light:#e3ebf7;
+    --green:#52803f;
+    --blue:#0d6efd;
+    --grey:#757575;
+    --primary: #007BFF;
+    --warning: #FFC107;
+    --info: #17A2B8;
+    --danger: #DC3545;
+    --success: #28A745;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-lt{
+    background: var(--color-light);
+}
+.btn-add{
+    height: 2rem;
+    line-height: 1.3rem;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.wp-14{
+    width: 14%;
+}
+.wp-24{
+    width: 24%;
+}
+.generative_card{
+    height: 269px;
+    overflow-y: scroll;
+}
+.textCamle{
+    text-transform: capitalize;
+}
+.ms-6 {
+    margin-inline-start: 2.5rem/* 16px */;
+}
+
+.foot{
+    outline: 1px solid #757575;;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.bg-oldgreen{
+background-color: var(--green) !important;
+}
+.nav-link:hover{
+color: var(--green) !important;
+font-weight: bold;
+transition: all 0.3s;}
+header{
+    width: 100%;
+}
+.btnp_over:hover{
+    color: var(--grey);
+    border: none;
+    background-color: var(--color-light);
+    transition: all 0.3s ease-in-out;
+}
+main{
+    flex-grow: 1;
+}
+
+.item_container{
+    width: 32% !important;
+}
+.t_history{
+width: 97% !important;
+}
+.el_container{
+    justify-content: space-between !important;
+}
+
+.form_container{
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+}
+.form-label{
+    font-size: 1.1rem;
+}
+
+footer{
+    color: white;
+    height: 60px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-align: center;
+    color: #fff;
+    background: rgba(90, 92, 105, 0.5);
+    line-height: 46px;
+  }
+  
+  .scroll-to-top:focus, .scroll-to-top:hover {
+    color: white;
+  }
+  
+  .scroll-to-top:hover {
+    background: #5a5c69;
+  }
+  
+  .scroll-to-top i {
+    font-weight: 800;
+  }
+
+@media (max-width:1005px){
+    .item_container{
+        width: 48% !important;
+    }
+}
+
+@media (max-width:778px){
+    .item_container{
+        width: 97% !important;
+    }
+    .el_container{
+        justify-content: center !important;
+    }
+    
+}
